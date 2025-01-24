@@ -1,0 +1,14 @@
+footer{
+    background-color: var(--black);
+}
+.container-footer{
+    width: 100%;
+    background-color: var(--black);
+    border-top: 1px solid rgb(154, 153, 153);
+}
+.copy{
+    color: var(--black);
+}
+svg{
+    color: var(--white);
+}

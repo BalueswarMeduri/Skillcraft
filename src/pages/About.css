@@ -1,0 +1,153 @@
+/* About.css */
+
+
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .about-heading {
+    font-size: 2.5rem; /* Large heading size */
+    font-weight: bold;
+    color: var(--white); /* Blue heading */
+    margin-top: 70px;
+  }
+  
+  .about-text {
+    font-size: 1.125rem; /* Slightly larger text for readability */
+    line-height: 1.8; /* Line spacing */
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+
+
+
+.contact-container {
+  padding-top: 10rem !important;
+  width: 40%;
+  margin: 0 auto;
+  padding: 20px 50px;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.contact-container h1 {
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(248, 211, 6);
+}
+
+.contact-container h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: rgb(248, 211, 6);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact-form button:hover {
+  background-color: #dfc505;
+}
+
+.contact-form span {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+  color: #eae42a;
+}
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.success-message img {
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+}
+
+.success-message p {
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+}
+.than{
+  color: #eae42a !important;
+}
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .contact-container {
+    width: 60%;
+    padding: 20px 30px;
+  }
+
+  .contact-container h1, .contact-container h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contact-container h1, .contact-container h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    width: 90%;
+    padding: 20px;
+  }
+
+  .contact-container h1, .contact-container h2 {
+    font-size: 1.2rem;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    padding: 9px;
+    padding-right: 2px;
+  }
+
+  .contact-form button {
+    padding: 8px 16px;
+  }
+}
+
+  

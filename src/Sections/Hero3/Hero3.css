@@ -1,0 +1,12 @@
+.hero3{
+    padding-top: 14rem;
+     text-align: center;
+  height: 100vh;
+  /* background-image:
+  radial-gradient(at 100% 99%, hsla(199,100%,50%,0.68) 0px, transparent 50%),
+  radial-gradient(at 0% 0%, hsla(300,100%,50%,0.5) 0px, transparent 50%); */
+ }
+ .herobtn{
+     padding-left: 40px;
+     padding-right: 40px;
+ }

@@ -1,0 +1,103 @@
+
+
+body {
+    /* background-image:
+    radial-gradient(at 24% 37%, hsla(300,100%,50%,0.27) 0px, transparent 50%),
+    radial-gradient(at 74% 53%, hsla(199,100%,50%,0.3) 0px, transparent 50%); */
+height: 100vh;
+}
+
+.main-container {
+    padding-top: 10rem !important;
+    padding: 20px;
+}
+
+.web-title {
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+.web-table thead tr td{
+    color: var(--white);
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.web-table {
+    border-collapse: separate; /* Ensures gaps between cells */
+    border-spacing: 1px; /* Adds thin gaps */
+    width: 100%;
+ /* Background for the table */
+}
+
+.web-table th, .web-table td {
+    border: 1px solid #333; /* Thin border around cells */
+    padding: 8px; /* Padding for better readability */
+    text-align: center;
+     /* Cell background */
+    color: var(--white); /* Text color */
+}
+
+.table-head {
+    background-color: var(--black); /* Background color for the header */
+    color: var(--white);
+}
+.lang-column{
+    text-align: start !important;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 1px solid var(--white);
+    border-radius: 4px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+/* Checkbox checked state */
+input[type="checkbox"]:checked {
+    background-color: #4caf50; /* Green background for checked state */
+    border-color: #4caf50;
+    position: relative;
+}
+
+/* Checkmark icon for checked state */
+input[type="checkbox"]:checked::after {
+    content: "✔";
+    color: white;
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Set specific widths for each column */
+.web-table th:nth-child(1), .web-table td:nth-child(1) {
+    width: 10%; /* Adjust width for the first column */
+}
+
+.web-table th:nth-child(2), .web-table td:nth-child(2) {
+    width: 30%; /* Adjust width for the second column */
+}
+
+.web-table th:nth-child(3), .web-table td:nth-child(3) {
+    width: 20%; /* Adjust width for the third column */
+}
+
+.web-table th:nth-child(4), .web-table td:nth-child(4) {
+    width: 20%; /* Adjust width for the fourth column */
+}
+
+.web-table th:nth-child(5), .web-table td:nth-child(5) {
+    width: 20%; /* Adjust width for the fifth column */
+}
+@media (min-width:320px) and (max-width:480px){
+    .main-container{
+     overflow: scroll;
+    }
+ }
